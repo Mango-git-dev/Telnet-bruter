@@ -6,11 +6,13 @@
 ```
 sudo yum update -y
 sudo yum install git -y
+sudo yum install gcc -y
 ```
 - Ubuntu / Debian
 ```
 sudo apt update
 sudo apt install git -y
+sudo apt install gcc -y
 ```
 
 - Importan
@@ -19,6 +21,7 @@ sudo apt install git -y
 git clone https://github.com/Mango-git-dev/telnet-bruter.git
 cd ./telnet-bruter/
 gcc ./*.c -o telnet-bruter -pthread -std=c99 -fcommon
+chmod +x bruter.sh
 sh bruter.sh
 ```
 - Note : 
