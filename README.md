@@ -13,6 +13,8 @@ sudo apt update
 sudo apt install git -y
 ```
 
+- Importan
+
 ```sh
 git clone https://github.com/Mango-git-dev/telnet-bruter.git
 cd ./telnet-bruter/
