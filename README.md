@@ -1,6 +1,18 @@
 # Telnet Bruter
 
 ### Installation
+
+- Centos / RHEL :
+```
+sudo yum update -y
+sudo yum install git -y
+```
+- Ubuntu / Debian
+```
+sudo apt update
+sudo apt install git -y
+```
+
 ```sh
 git clone https://github.com/Mango-git-dev/telnet-bruter.git
 cd ./telnet-bruter/
