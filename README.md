@@ -7,12 +7,14 @@
 sudo yum update -y
 sudo yum install git -y
 sudo yum install gcc -y
+sudo yum install zmap -y
 ```
 - Ubuntu / Debian
 ```
 sudo apt update
 sudo apt install git -y
 sudo apt install gcc -y
+sudo apt install zmap -y
 ```
 
 - Importan
